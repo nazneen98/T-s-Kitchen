@@ -1,0 +1,104 @@
+body, html
+{
+   height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image:url('../images/a.jpeg');
+  background-position: center;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  min-height:400px;
+  font-family: "Sweet Hipster";
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4
+{
+  position:relative;
+  opacity:0.9;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1
+{
+  background-image:url('../images/a.jpeg');
+  min-height:100%;
+}
+
+.pimg2
+{
+  background-image:url('../images/b.jpeg');
+  min-height:400px;
+}
+
+.pimg3
+{
+  background-image:url('../images/c.jpeg');
+  min-height:300px;
+}
+
+.pimg4
+{
+  background-image:url('../images/d.png');
+  min-height:400px;
+}
+
+.section
+{
+  font-family: cursive;
+  font-size: 30px;
+  font-style: normal;
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light
+{
+  background-color:#8de0db;
+  color:#ffffff;
+}
+
+.section-dark
+{
+  background-color:#f9b775;
+  color:#ffffff;
+}
+
+@font-face
+{
+    font-family: "Sweet Hipster";
+    src: url("../css/fonts/Sweet Hipster.ttf");
+    font-style: normal;
+    font-weight: 200;
+}
+
+.ptext
+{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color: white;
+  font-size:150px;
+  font-family: "Sweet Hipster";
+}
+
+.pabout
+{
+  position:bottom;
+  top:50%;
+  width:100%;
+  text-align:bottom;
+  color:white;
+  font-size:45px;
+  font-family: "Sweet Hipster";
+  background-color: #000000;
+  margin-bottom: 20%
+}

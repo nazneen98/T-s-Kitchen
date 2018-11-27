@@ -1,0 +1,166 @@
+
+
+body, html
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 1.8em;
+  color: black;
+}
+ul
+{
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+ul li
+{
+  margin: 10px;
+  list-style: none;
+  font-size: 24px;
+  transition: .5s;
+}
+{
+  margin:0;
+  padding:0;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4
+{
+  position:relative;
+  opacity:1;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1
+{
+  background-image:url('../images/a.jpeg');
+  min-height:100%;
+}
+
+.pimg2
+{
+  background-image:url('../images/b.jpeg');
+  min-height:300px;
+}
+
+.pimg3
+{
+  background-image:url('../images/c.jpeg');
+  min-height:400px;
+}
+
+.pimg4
+{
+  background-image:url('../images/d.png');
+  min-height:400px;
+}
+
+.section
+{
+  font-family: "Sweet Hipster";
+  font-size: 70px;
+  font-style: normal;
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light
+{
+  background-color: #470000 ;
+  color:#470000;
+}
+
+  .section-medium
+  {
+    background-color: #470000;
+    color:#470000;
+  }
+
+.section-dark
+{
+  background-color:#470000;
+  color:#470000;
+}
+
+@font-face
+{
+    font-family: "Sweet Hipster";
+    src: url("../css/fonts/Sweet Hipster.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+.ptext
+{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-size:100px;
+  font-family: "Sweet Hipster";
+}
+
+.ptitle
+{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-size:300px;
+  font-family: "Sweet Hipster";
+}
+
+.gallery
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position:relative;
+}
+
+.gallery img
+{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover
+{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.galleryBack
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image:url('../images/a.jpeg');
+  background-position: center;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  min-height:400px;
+  font-family: "Sweet Hipster";
+}
+
+
